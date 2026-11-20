@@ -1,0 +1,12 @@
+stack = []
+
+stack.append(4)
+stack.append(7)
+stack.pop()
+stack.append(2)
+stack.append(9)
+stack.pop()
+stack.pop()
+stack.append(5)
+
+print(stack[-1], len(stack))
